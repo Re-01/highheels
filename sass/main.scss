@@ -1,0 +1,47 @@
+nav{background-color:rgb(14, 6, 6)}
+    nav ul{margin:0;padding:0}
+        nav ul li{display:inline}
+            nav ul a{text-decoration:none}
+
+body{color:rgb(211, 203, 203); 
+    background-color: black;
+}
+
+.mainbg img
+{
+    filter: blur(6px);
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    transform: translateX(0px);
+}
+
+body p 
+{
+    max-width: 1850px;
+    font-family: gotham, arial, helvetica;
+    font-size: 18px;
+    margin: 10;
+    padding: 10;
+    margin: 0 auto !important;
+    position: relative;
+}
+
+h1,h2,h3{color:white}
+
+.panel{height:80vh}
+.panel:nth-child(even){background-color:rgb(145, 80, 72);
+color:white}
+
+#to-top{position:fixed;bottom:10px;right:10px;display:none}
+
+footer{color:rgb(247, 217, 162)}
+
+ul{margin:0;padding:0}
+    ul li{display:inline}
+        ul li a{text-decoration:none}
+
+img {
+    width: 500px;
+    transform: translateX(50px);
+}
